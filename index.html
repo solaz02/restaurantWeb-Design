@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Restaurant Web Design</title>
+    <!-- Swiper cdn Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <!-- Font Awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!-- Custom Style Sheet -->
@@ -31,14 +33,73 @@
             <a href="#" class="fas fa-shopping-cart"></a>
          </div>
     </header>
+    <!-- ##########  End of Header Section ######### -->
+
+    <!-- ************ Search Form *********** -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="Search Here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- ##########  Start of Home Section ######### -->
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dish</span>
+                        <h3>Spicy Noodles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Harum explicabo sequi nemo, tempora quia tenetur.
+                        </p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="assets/home-1.1.png" alt="" srcset="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dish</span>
+                        <h3>Roasted Chicken</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Harum explicabo sequi nemo, tempora quia tenetur.
+                        </p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="assets/home-2.png" alt="" srcset="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dish</span>
+                        <h3>Juicy Pizza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Harum explicabo sequi nemo, tempora quia tenetur.
+                        </p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="assets/home-3.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- ##########  End of Home Section ######### -->
+
     <!-- ##########  Start of Header Section ######### -->
-
-     <!-- ##########  Start of Header Section ######### -->
-    <!-- ##########  Start of Header Section ######### -->
+    <!-- ##########  End of Header Section ######### -->
 
 
 
-
+    <!-- Swiper JS CDN File Link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Custom JS File -->
     <script src="JS/script.js"></script>
 </body>
